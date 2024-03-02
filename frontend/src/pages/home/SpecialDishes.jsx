@@ -76,7 +76,7 @@ const SpecialDishes = () => {
       };
   return (
     <div className='max-w-screen-2xl container m-auto xl:px-24 px-4 my-20'>
-      <div className='flex items-center justify-between'>
+      <div className='flex flex-col md:flex-row md:items-center justify-between'>
       <div className="text-left">
         <p className='font-medium text-red-500 uppercase tracking-wide text-lg'>special dishes</p>
         <h1 className='text-4xl md:text-5xl font-bold my-2 md:leading-snug leading-snug md:w-[520px]'>Standout Dishes From Our Menu</h1>
