@@ -7,3 +7,6 @@ body{
 header{
     z-index: 1001 !important;
 }
+.starHeart{
+    border-radius: 0 28px 0 28px;
+}
