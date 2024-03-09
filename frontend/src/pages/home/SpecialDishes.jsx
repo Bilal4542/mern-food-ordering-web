@@ -89,7 +89,7 @@ const SpecialDishes = () => {
       </div>
 
 
-      <Slider ref={slider} {...settings} className='overflow-hidden mt-10 space-x-10'>
+      <Slider ref={slider} {...settings} className='overflow-hidden mt-10 space-x-10 -z-10'>
         {
             recipes.map((item, index) => (
                 <SpecialDishCards key={index} item={item}/>
