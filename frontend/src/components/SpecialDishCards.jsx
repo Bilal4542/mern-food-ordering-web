@@ -12,7 +12,7 @@ const SpecialDishCards = ({item}) => {
         setIsHeartFilled(!isHeartFilled)
     }
   return (
-    <div className=''>
+    <div className='-z-10'>
       <div className="card w-72 lg:w-96 m-auto bg-base-100 shadow-xl relative">
 
         <div className={`rating gap-1 absolute right-2 top-2 p-4 starHeart bg-orange-400 ${isHeartFilled ? 'text-red-700' : 'text-white'}`} onClick={handleHeartClick}>

@@ -22,7 +22,7 @@ const Testimonials = () => {
 
         {/* avatar */}
         <div className='flex items-center gap-4 flex-wrap'>
-        <div className="avatar-group -space-x-6 rtl:space-x-reverse">
+        <div className="avatar-group -space-x-6 rtl:space-x-reverse -z-10">
   <div className="avatar">
     <div className="w-12">
       <img src={testimonial_1} />
